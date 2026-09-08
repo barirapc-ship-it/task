@@ -23,7 +23,7 @@ int main() {
         if (arr[i] > largest) {
             largest = arr[i];
             largestIndex = i;
-        }
+        }111;
         
         // using '<' ensures we keep the first occurrence if the minimum repeats
         if (arr[i] < smallest) {

@@ -5,17 +5,18 @@ int main() {
     int numbers[5];
     int total = 0;
 
-    // Read five numbers from the user
+    // asking the user to input 5 numbers
+    cout << "Enter 5 numbers:" << endl;
     for (int i = 0; i < 5; i++) {
         cin >> numbers[i];
     }
 
-    // Add the numbers together
+    // adding the numbers together
     for (int i = 0; i < 5; i++) {
         total = total + numbers[i];
     }
 
-    // Display the total
+    // displaying the final total
     cout << "Total = " << total << endl;
 
     return 0;
